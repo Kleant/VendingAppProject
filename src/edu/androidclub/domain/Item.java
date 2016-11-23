@@ -5,7 +5,7 @@ package edu.androidclub.domain;
 public abstract class Item {
     private final String name;
 
-    public Item(String name) {
+    public Item(String name, int i) {
         this.name = name;
     }
 
